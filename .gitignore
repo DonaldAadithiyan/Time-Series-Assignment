@@ -1,0 +1,72 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env*/
+.venv/
+*.egg-info/
+build/
+dist/
+
+# ---------------------------
+# Jupyter / VSCode
+# ---------------------------
+.ipynb_checkpoints
+.vscode/
+*.code-workspace
+
+# ---------------------------
+# OS files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Data files (raw / outputs)
+# ---------------------------
+*.csv
+*.tsv
+*.dat
+*.data
+*.json
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# ---------------------------
+# Logs / cache
+# ---------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.cache/
+*.zip
+*.rar
+
+# ---------------------------
+# Model outputs / submissions
+# ---------------------------
+my_submission.csv
+submission*.csv
+*.ckpt
+*.pth
+*.pt
+*.model
+*.weights
+*.onnx

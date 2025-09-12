@@ -1,72 +1,37 @@
-# ---------------------------
 # Python
-# ---------------------------
 __pycache__/
-*.py[cod]
-*.so
+*.pyc
+*.pyo
 *.pyd
-
-# Virtual environments
+*.env
+*.venv
+env/
 venv/
-.env/
-.env*/
-.venv/
 *.egg-info/
-build/
 dist/
+build/
 
-# ---------------------------
-# Jupyter / VSCode
-# ---------------------------
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints
+
+# VSCode
 .vscode/
-*.code-workspace
 
-# ---------------------------
-# OS files
-# ---------------------------
+# MacOS
 .DS_Store
-Thumbs.db
 
-# ---------------------------
-# Data files (raw / outputs)
-# ---------------------------
+# CSVs and large datasets
 *.csv
 *.tsv
-*.dat
-*.data
-*.json
-*.xlsx
-*.xls
-*.parquet
-*.feather
 *.h5
-*.hdf5
-*.pkl
-*.joblib
-*.npy
-*.npz
-
-# ---------------------------
-# Logs / cache
-# ---------------------------
-*.log
-*.tmp
-*.bak
-*.swp
-*.swo
-.cache/
+*.parquet
 *.zip
-*.rar
+*.json
 
-# ---------------------------
-# Model outputs / submissions
-# ---------------------------
-my_submission.csv
-submission*.csv
-*.ckpt
-*.pth
-*.pt
-*.model
-*.weights
-*.onnx
+# Kaggle input/output folders
+kaggle/input/
+kaggle/working/
+kaggle/output/
+
+# Logs
+*.log
